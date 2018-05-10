@@ -1,0 +1,5 @@
+<script>
+    $j('#teacherSectionTable tr td:nth-child(5)').remove();
+    $j('#teacherSectionTable tr:last-child p:first-child').html("Click on either chair icon to take attendance.")
+    $j('#teacherSectionTable tr:last-child p:nth-child(1)').remove()
+</script>
